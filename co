@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Видатні українці</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #ffd700, #0057b8); /* Жовто-синій фон */
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+        h1 {
+            font-size: 36px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .person {
+            font-size: 20px;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 15px;
+            margin: 10px auto;
+            width: 60%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+            animation: slideIn 1.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Видатні українці</h1>
+
+    <div class="person">📜 <strong>Пилип Орлик</strong> – автор першої у світі Конституції (1710 р.).</div>
+    <div class="person">🎨 <strong>Катерина Білокур</strong> – всесвітньо відома художниця, чиї картини захоплювали навіть Пікассо.</div>
+    <div class="person">🚀 <strong>Сергій Корольов</strong> – конструктор перших космічних кораблів СРСР.</div>
+    <div class="person">⚡ <strong>Ігор Сікорський</strong> – українець, який створив перший у світі гелікоптер.</div>
+    <div class="person">📚 <strong>Ліна Костенко</strong> – легендарна українська поетеса, символ свободи та незалежності.</div>
+    <div class="person">🎶 <strong>Соломія Крушельницька</strong> – оперна співачка, яка врятувала оперу «Мадам Батерфляй» Пуччіні.</div>
+    <div class="person">⚽ <strong>Андрій Шевченко</strong> – один із найкращих футболістів світу, володар «Золотого м’яча».</div>
+</body>
+</html>
