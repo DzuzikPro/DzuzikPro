@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цікаві факти про Україну</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #0057b8;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Цікаві факти про Україну</h1>
+    <p>🇺🇦 Україна — найбільша країна Європи за площею (603 548 км²).</p>
+    <p>✈️ АН-225 «Мрія» — найбільший і найпотужніший літак у світі.</p>
+    <p>🎶 «Щедрик» — українська пісня, яка стала основою «Carol of the Bells».</p>
+    <p>🥣 Борщ визнаний культурною спадщиною ЮНЕСКО.</p>
+    <p>🔡 Українська мова одна з наймилозвучніших у світі.</p>
+</body>
+</html>
